@@ -18,7 +18,7 @@ This is a simple and efficient text editor application designed to provide offli
 
 ## Usage
 
-Here is a URL of the application:
+Here is a URL of the application: https://text-editor-y9vf.onrender.com
 
 ## Questions 
 
