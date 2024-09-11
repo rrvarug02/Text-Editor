@@ -24,13 +24,13 @@ module.exports = () => {
     plugins: [
       // Plugin to generate an HTML file with the specified template and title
       new HtmlWebpackPlugin({
-        template: './src/index.html', // Path to HTML template
-        title: 'Just Another Text Editor' // HTML title
+        template: './index.html', // Path to HTML template
+        title: 'Text Editor' // HTML title
       }),
 
       // Plugin to inject a service worker into the build
       new InjectManifest({
-        swSrc: './src/src-sw.js', // Path to the service worker source file
+        swSrc: './src-sw.js', // Path to the service worker source file
         swDest: 'src-sw.js', // Output file for the service worker
       }),
 
